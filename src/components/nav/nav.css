@@ -1,0 +1,39 @@
+.Nav-container {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    transition: var(--transition);
+    z-index: 1;
+    
+  }
+
+  .nav-grid-item {
+    grid-column: 3 / 6;
+    grid-row: 3 / span 1;
+    justify-self: center;
+  }
+
+  .Nav-container a:hover {
+    background: var(--color-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: 
+    transparent;
+}
+
+  .Nav-links {
+    margin-right: 2rem;
+    font-size: 1.4rem;
+  }
+
+
+  @media screen and (min-width: 1035px) {
+    .Nav-container {
+      display: flex;
+    } 
+  }
+
+  @media screen and (min-width: 1035px) {
+    
+
+}
